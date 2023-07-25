@@ -1,3 +1,5 @@
+#!/bin/bash
+
 get_value_from_nested_object() {
     # First argument is the JSON string
     json_string="$1"
