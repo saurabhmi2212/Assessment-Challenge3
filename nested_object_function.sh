@@ -15,13 +15,13 @@ get_value_from_nested_object() {
     echo "$value"
 }
 
-# Example usage:
+## Example usage:
 object1='{"a":{"b":{"c":"d"}}}'
 key1="a/b/c"
 result1=$(get_value_from_nested_object "$object1" "$key1")
-echo "$result1"  # Output: d
+echo "$result1"  ## Output: d
 
 object2='{"x":{"y":{"z":"a"}}}'
 key2="x/y/z"
 result2=$(get_value_from_nested_object "$object2" "$key2")
-echo "$result2"  # Output: a
+echo "$result2"  ## Output: a
